@@ -1,0 +1,42 @@
+# Domain 1
+DOMAIN N=110 b=5 k_u_0=0.132 Delta=1.49 l_f_0=14.6 k_f_0=22.6
+# Domains 2-5
+DOMAIN N=110 b=5 k_u_0=0.004 Delta=1.49 l_f_0=14.6 k_f_0=22.6
+DOMAIN N=110 b=5 k_u_0=0.004 Delta=1.49 l_f_0=14.6 k_f_0=22.6
+DOMAIN N=110 b=5 k_u_0=0.004 Delta=1.49 l_f_0=14.6 k_f_0=22.6
+DOMAIN N=110 b=5 k_u_0=0.004 Delta=1.49 l_f_0=14.6 k_f_0=22.6
+# Domains 6-10
+DOMAIN N=110 b=5 k_u_0=0.02 Delta=1.01 l_f_0=24.4 k_f_0=0.39
+DOMAIN N=110 b=5 k_u_0=0.02 Delta=1.01 l_f_0=24.4 k_f_0=0.39
+DOMAIN N=110 b=5 k_u_0=0.02 Delta=1.01 l_f_0=24.4 k_f_0=0.39
+DOMAIN N=110 b=5 k_u_0=0.02 Delta=1.01 l_f_0=24.4 k_f_0=0.39
+DOMAIN N=110 b=5 k_u_0=0.02 Delta=1.01 l_f_0=24.4 k_f_0=0.39
+# Domains 11-15
+DOMAIN N=110 b=5 k_u_0=0.032 Delta=1.25 l_f_0=24.4 k_f_0=0.39
+DOMAIN N=110 b=5 k_u_0=0.032 Delta=1.25 l_f_0=24.4 k_f_0=0.39
+DOMAIN N=110 b=5 k_u_0=0.032 Delta=1.25 l_f_0=24.4 k_f_0=0.39
+DOMAIN N=110 b=5 k_u_0=0.032 Delta=1.25 l_f_0=24.4 k_f_0=0.39
+DOMAIN N=110 b=5 k_u_0=0.032 Delta=1.25 l_f_0=24.4 k_f_0=0.39
+# Domains 16-17
+DOMAIN N=110 b=5 k_u_0=0.001 Delta=1.25 l_f_0=17.1 k_f_0=5.0
+DOMAIN N=110 b=5 k_u_0=0.001 Delta=1.25 l_f_0=17.1 k_f_0=5.0
+# Domains 18-21
+DOMAIN N=110 b=5 k_u_0=5e-4 Delta=1.64 l_f_0=17.1 k_f_0=5.0
+DOMAIN N=110 b=5 k_u_0=5e-4 Delta=1.64 l_f_0=17.1 k_f_0=5.0
+DOMAIN N=110 b=5 k_u_0=5e-4 Delta=1.64 l_f_0=17.1 k_f_0=5.0
+DOMAIN N=110 b=5 k_u_0=5e-4 Delta=1.64 l_f_0=17.1 k_f_0=5.0
+# Domains 22-23
+DOMAIN N=110 b=5 k_u_0=7.7e-6 Delta=1.64 l_f_0=20.9 k_f_0=0.79
+DOMAIN N=110 b=5 k_u_0=7.7e-6 Delta=1.64 l_f_0=20.9 k_f_0=0.79
+# Domain 24
+DOMAIN N=110 b=5 k_u_0=1.6e-7 Delta=1.64 l_f_0=20.9 k_f_0=0.79
+
+INITIAL 0.1
+RATE 0.5
+FINAL 200
+STEP 0.2
+CONSTANT 1000
+DIRECT	# Alternatively FIRST
+BINARY
+OUTFILE test_output_5e-1_2e-1.dat
+#REPEAT 100
