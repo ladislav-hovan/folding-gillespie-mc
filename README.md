@@ -1,2 +1,2 @@
-# scientific-code
-Various small projects I have worked on during my PhD
+# folding-gillespie-mc
+C++ code for simulating folding and unfolding of protein domains using the Gillespie algorithm.
